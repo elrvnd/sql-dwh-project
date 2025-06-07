@@ -1,2 +1,2 @@
 # SQL-Projects
-This is where i'm placing my hands-on practices from an SQL course.  
+This is where i'm placing my hands-on practices.
