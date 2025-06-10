@@ -1,10 +1,12 @@
-/* 
+/* ================================================
 DDL Script: Create Silver Tables
+
 This script creates tables in the silver schema and drops existing tables with the same name
 if they already exist. 
+
 The data types are purposely made incorrect in several parts in order to go through 
-data cleaning and transforming process. This serves as a practice for ETL 
-*/
+a data cleaning and transforming process. This serves as a practice for ETL 
+================================================ */
 
 IF OBJECT_ID ('silver.crm_cust_info', 'U') IS NOT NULL
 	DROP TABLE silver.crm_cust_info; */
