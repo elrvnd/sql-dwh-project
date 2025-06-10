@@ -2,12 +2,11 @@
 Stored Procedure: Load Bronze Layer (Source: Bronze)
 
 This stored procedure loads data into the bronze schema from external CSV files.
-It truncates the bronze tables before laoding the data and uses bulk insert command to load data.
+It truncates the bronze tables before loading the data and uses bulk insert command to load data.
 
 Parameters: none
 Usage example: EXEC bronze.load_bronze; 
-===================================================
-*/
+=================================================== */
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 BEGIN
