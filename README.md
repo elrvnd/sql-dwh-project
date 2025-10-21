@@ -1,2 +1,3 @@
-# SQL-Projects
+# SQL
+
 Guided project
